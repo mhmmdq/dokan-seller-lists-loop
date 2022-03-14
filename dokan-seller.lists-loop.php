@@ -8,6 +8,9 @@ Version: 1.0.0
 Author URI: https://github.com/mhmmdq
 */
 
+if ( ! defined( 'ABSPATH' ) )
+	exit;
+
 
 function dokan_seller_listing_footer_content_add_city_state( $seller )
 {
